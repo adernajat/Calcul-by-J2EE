@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form action="cal" method="post">
+        <label for="num1">First number:</label>
+        <input type="number" name="num1" required><br>
+        <label for="num2">Second number:</label>
+        <input type="number" name="num2" required><br>
+        
+        <label><input type="radio" name="operation" value="addition" checked> Addition (+)</label><br>
+        <label><input type="radio" name="operation" value="subtraction"> Subtraction (-)</label><br>
+        <label><input type="radio" name="operation" value="multiplication"> Multiplication (*)</label><br>
+        <label><input type="radio" name="operation" value="division"> Division (/)</label><br><br>
+        
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
